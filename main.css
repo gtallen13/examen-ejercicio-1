@@ -1,0 +1,86 @@
+body
+{
+    background-color: lightgrey;
+}
+
+.container
+{
+    text-align: center;
+    height: 50px;
+    background-color: #800000;
+    border-top: #000 solid;
+}
+
+.container #flexbox h1
+{
+    color: whitesmoke;
+    text-align: center;
+    border: none;
+    margin: none;
+}
+
+.container .columns
+{
+    width: 75%;
+    display: flex;
+    margin: 100px 100px 0 100px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container .columns p
+{
+    text-align: left;
+}
+
+.container .columns #columna1
+{
+    margin: 0 20px 0 20px;
+    height: 500px;
+    width: 200px;
+    background-color: whitesmoke;
+}
+
+.container .columns #columna1 #michi1
+{
+    height: 100px;
+    width: 200px;
+    background-image: url("./img/michi1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container .columns #columna2
+{
+    margin: 0 20px 0 20px;
+    height: 500px;
+    width: 200px;
+    background-color:whitesmoke;
+}
+
+.container .columns #columna2 #michi2
+{
+    height: 200px;
+    width: 200px;
+    background-image: url("./img/michi2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container .columns #columna3
+{
+    margin: 0 20px 0 20px;
+    height: 500px;
+    width: 200px;
+    background-color:whitesmoke;
+}
+.container .columns #columna3 #michi3
+{
+    height: 200px;
+    width: 200px;
+    background-image: url("./img/michi3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
